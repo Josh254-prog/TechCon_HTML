@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechCon 2024</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body style="font-family: sans-serif; background-color: #f0f4f8; color: #333; line-height: 1.6;" class="antialiased">
+    <!-- Header section of the page -->
+    <header style="background-color: #1a202c; color: #ffffff; padding: 1.5rem 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;" class="flex flex-col md:flex-row justify-between items-center">
+            <!-- Page title -->
+            <h1 class="text-4xl font-extrabold mb-4 md:mb-0 text-white">Contact Us</h1>
+            <!-- Navigation menu -->
+            <nav>
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6" style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="index.html" style="display: block; padding: 0.5rem 1rem; border-radius: 8px; transition: background-color 0.3s ease, color 0.3s ease; color: #cbd5e0;" class="hover:bg-gray-700 hover:text-white">Home</a></li>
+                    <li><a href="about.html" style="display: block; padding: 0.5rem 1rem; border-radius: 8px; transition: background-color 0.3s ease, color 0.3s ease; color: #cbd5e0;" class="hover:bg-gray-700 hover:text-white">About</a></li>
+                    <li><a href="schedule.html" style="display: block; padding: 0.5rem 1rem; border-radius: 8px; transition: background-color 0.3s ease, color 0.3s ease; color: #cbd5e0;" class="hover:bg-gray-700 hover:text-white">Schedule</a></li>
+                    <li><a href="register.html" style="display: block; padding: 0.5rem 1rem; border-radius: 8px; transition: background-color 0.3s ease, color 0.3s ease; color: #cbd5e0;" class="hover:bg-gray-700 hover:text-white">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <main style="padding: 2rem 0;" class="container py-8">
+        <section style="background-color: #ffffff; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 2rem;">
+            <h2 style="color: #2d3748;" class="text-3xl font-bold mb-6 text-center">Get in Touch with TechCon 2024</h2>
+
+            <!-- Contact Information -->
+            <div class="mb-8 text-center">
+                <p class="text-lg leading-relaxed mb-4 text-gray-700">
+                    Have questions about TechCon 2024? Feel free to reach out to us through the following channels:
+                </p>
+                <p class="text-lg mb-2">
+                    <strong style="font-weight: bold;">Email:</strong> <a href="mailto:email@example.com" style="color: #2563eb;" class="text-blue-600 hover:underline">email@example.com</a>
+                </p>
+                <div class="flex justify-center space-x-6 mt-4">
+                    <!-- Social Media Links with Font Awesome icons -->
+                    <a href="https://twitter.com/techcon" target="_blank" style="color: #3b82f6; transition: color 0.3s ease;" class="social-link hover:text-blue-700" aria-label="TechCon Twitter">
+                        <i class="fab fa-twitter text-3xl"></i>
+                    </a>
+                    <a href="https://facebook.com/techcon" target="_blank" style="color: #1d4ed8; transition: color 0.3s ease;" class="social-link hover:text-blue-900" aria-label="TechCon Facebook">
+                        <i class="fab fa-facebook text-3xl"></i>
+                    </a>
+                    <a href="https://linkedin.com/company/techcon" target="_blank" style="color: #1e40af; transition: color 0.3s ease;" class="social-link hover:text-blue-950" aria-label="TechCon LinkedIn">
+                        <i class="fab fa-linkedin text-3xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Embedded Google Maps -->
+            <h2 style="color: #2d3748;" class="text-3xl font-bold mb-6 text-center">Our Venue Location</h2>
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;" class="map-container mb-8">
+                <!-- Replace with your actual Google Maps embed code for the venue -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.375276329683!2d36.7821639!3d-1.2920659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d0d0b%3A0x23a1a4e1d7d0a6c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sus!4v1678234567890!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 10px;"></iframe>
+            </div>
+
+            <!-- Contact Us Form -->
+            <h2 style="color: #2d3748;" class="text-3xl font-bold mb-6 text-center">Send Us a Message</h2>
+            <form action="#" method="POST" class="max-w-xl mx-auto">
+                <div class="mb-4">
+                    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: bold; color: #4a5568;" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" required class="form-input rounded-lg"
+                           style="width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #cbd5e0; border-radius: 8px; box-sizing: border-box; transition: border-color 0.3s ease;">
+                </div>
+                <div class="mb-4">
+                    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: bold; color: #4a5568;" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" required class="form-input rounded-lg"
+                           style="width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #cbd5e0; border-radius: 8px; box-sizing: border-box; transition: border-color 0.3s ease;">
+                </div>
+                <div class="mb-6">
+                    <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: bold; color: #4a5568;" class="form-label">Message:</label>
+                    <textarea id="message" name="message" rows="6" required class="form-textarea rounded-lg"
+                              style="width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #cbd5e0; border-radius: 8px; box-sizing: border-box; transition: border-color 0.3s ease;"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="submit-button rounded-lg"
+                            style="background-color: #4299e1; color: #ffffff; padding: 1rem 2rem; border-radius: 8px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; border: none;">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer section, consistent with other pages -->
+    <footer style="background-color: #1a202c; color: #cbd5e0; padding: 1.5rem 0; text-align: center; border-top-left-radius: 15px; border-top-right-radius: 15px; box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;" class="container">
+            <p style="font-size: 0.875rem;">&copy; 2024 TechCon. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
